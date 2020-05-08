@@ -3,26 +3,26 @@
 It is a process that starts when a customer has a business idea for an application, once a contract has been signed with a company to build the idea. To make this happen the following list outlines the different phases in order, that any such project would go through from start to finish.
 
 PLANNING
-Where the customer or a representative meets together with a product owner, to 			define the requirements of the application at a high level.
+Where the customer or a representative meets together with a product owner, to define the requirements of the application at a high level.
 
 REQUIREMENT ANALYSIS
-The product owner will meet up with the team to define each requirement more in 		depth to give more planning details.
+The product owner will meet up with the team to define each requirement more in depth to give more planning details.
 
 DESIGN
 The broken down requirements are used to then plan the product, this may include 	issues such as colour schemes, UI layout, frameworks, what programming 			languages to use and database relationships.
 	
 IMPLEMENTATION/CODING
-Where the fun starts, the operations team will set up the physical hardware for the 		servers, the developers will write the code, the designers will continue planning the 		UI. Testers will begin to analyse the requirements to plan test cases.
+Where the fun starts, the operations team will set up the physical hardware for the 	servers, the developers will write the code, the designers will continue planning the 	UI. Testers will begin to analyse the requirements to plan test cases.
 
 TESTING
-One of the most important phases, to validate all requirements have been met, to 		make sure the functionality is working as expected, to find as many bugs as they 			possibly can.
+One of the most important phases, to validate all requirements have been met, to 	make sure the functionality is working as expected, to find as many bugs as they 	possibly can.
 
 DEPLOYMENT
- Getting ready for production then to go live to real users.
+Getting ready for production then to go live to real users.
 
 
 MAINTENANCE
-Monitor the load, maintain the environment and fix further bugs found. During the 		maintenance phase, new requirements will be discovered and the process 			can start again to upgrade or install new features into the existing application.
+Monitor the load, maintain the environment and fix further bugs found. During the 	maintenance phase, new requirements will be discovered and the process 			can start again to upgrade or install new features into the existing application.
 
 
 
