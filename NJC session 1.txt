@@ -1,28 +1,28 @@
-Explain SDLC at a high level
+1)Explain SDLC at a high level
 
 It is a process that starts when a customer has a business idea for an application, once a contract has been signed with a company to build the idea. To make this happen the following list outlines the different phases in order, that any such project would go through from start to finish.
 
-Planning
-Where the customer or a representative meets together with a product owner, to define the requirements of the application at a high level.
+PLANNING
+Where the customer or a representative meets together with a product owner, to 			define the requirements of the application at a high level.
 
-Requirement Analysis
-The product owner will meet up with the team to define each requirement more in depth to give more planning details.
+REQUIREMENT ANALYSIS
+The product owner will meet up with the team to define each requirement more in 		depth to give more planning details.
 
-Design
-The broken down requirements are used to then plan the product, this may include issues such as colour schemes, UI layout, frameworks, what programming languages to use and database relationships.
+DESIGN
+The broken down requirements are used to then plan the product, this may include 	issues such as colour schemes, UI layout, frameworks, what programming 			languages to use and database relationships.
 	
-Implementation/coding
-Where the fun starts, the operations team will set up the physical hardware for the servers, the developers will write the code, the designers will continue planning the UI. Testers will begin to analyse the requirements to plan test cases.
+IMPLEMENTATION/CODING
+Where the fun starts, the operations team will set up the physical hardware for the 		servers, the developers will write the code, the designers will continue planning the 		UI. Testers will begin to analyse the requirements to plan test cases.
 
-Testing
-One of the most important phases, to validate all requirements have been met, to make sure the functionality is working as expected, to find as many bugs as they possibly can.
+TESTING
+One of the most important phases, to validate all requirements have been met, to 		make sure the functionality is working as expected, to find as many bugs as they 			possibly can.
 
-Deployment
-Getting ready for production then to go live to real users.
+DEPLOYMENT
+ Getting ready for production then to go live to real users.
 
 
-Maintenance
-Monitor the load, maintain the environment and fix further bugs found. During the maintenance phase, new requirements will be discovered and the process can start again to upgrade or install new features into the existing application.
+MAINTENANCE
+Monitor the load, maintain the environment and fix further bugs found. During the 		maintenance phase, new requirements will be discovered and the process 			can start again to upgrade or install new features into the existing application.
 
 
 
@@ -36,6 +36,8 @@ However, it is still relevant because for some applications, the developers and 
 
 3) Explain Agile Model with a use case and the role of SCRUM in that
 
+Just notes 
+
 Frequent Iterative delivery where each iteration follows the waterfall methodology but now over a shorter period usually a month, where new features can be released to the customer each month.
 
 Adaptive by working with people, engaging customers and being open to change
@@ -43,6 +45,7 @@ Responding to feedback from user experiences, working together being transparent
 Value based on effective requirements through conversations having close customer relationships 
 Lean principles
 Eliminate waste by good communication between teams and customers, culture of learning, deliver fast
+
 
 SCRUM
 Starting with the highest priority features first product backlog 
@@ -53,20 +56,66 @@ Goal end of sprint team produces fully functional product, only shippable if it 
 
 
 
+
+
+
 4) Who is Scrum Master
+
+This is a role within the scrum model that is assigned to someone, whose job is to take care of the teams needs, representing interests or concerns to management and  maintaining the productivity of the team by removing any impediments identified by themselves or the team. Ensuring cooperation and communication is fluent across the team.
+
+
+
+
 
 
 
 
 
 5) Differentiate between Product/Sprint Backlog
+
+Product backlog is a complete list of functionality and features desired to be put inside a product. All potential new work, constraints or defects to be accomplished on a product will be found in the product backlog. This is created and managed by the product manager.
+
+Created by the team at a sprint planning meeting which is held at the beginning of every sprint, is the sprint backlog. Here an item is removed from the top of the product backlog and broken into smaller finer grained work and put into the sprint backlog. This backlog represents all the low level work that the team will accomplish during a dedicated timed sprint. Deliverable activities here are estimated in ideal hours. It’s usual after work initially begins on the sprint backlog, more is understood of the problem and the sprint backlog can grow from when it was initialised.
+
+
 6) What is Epic & Story
 
-User story is a quick way of dealing customer requirements in a readable and usable form, being an effective means of communicating between the people who want and the people who will create the software in question without the overhead of creating and maintaining formal documentation.
+User story is a quick way of dealing customer requirements in a readable and usable form, being an effective means of communicating between the people who want and the people who will create the software in question without the overhead of creating and maintaining formal documentation. User stories should be independent and can be broken down to even smaller sub stories when questions are asked about the initial user story. When written appropriately teams can put an estimated time on the story using what is known as story points.
 
 7) What is called Velocity in SCRUM
+
+The total measure of work measured over time, where deliverable items/activities are measured in estimated ideal hours.
+
+
 8) Explain the SCRUM ceremonies
+
+THE SPRINT PLANNING MEETING
+This is the first activity of any sprint and is facilitated by the SCRUM master, this is the meeting sprint goals are created consisting of 1 or more product backlog items, the sprint backlog is developed and a burn-down chart is initialised for the teams use over the time of the sprint. All three team roles are usually present. Often held on the first Monday after the last sprint was completed. It is a time boxed activity, where the team discusses the fine details of implementations that will occur and start to estimate the work. All the small items of work discussed are then collated to create the sprint backlog. If all the small work items needed to deliver a product backlog item exceed a sprints time length, then a negotiation or a discard and replacement of that product backlog item will occur, and the process will continue until the sprint backlog is full.
+
+
+
+
+THE DAILY SCRUM
+Team focuses together once a day ideally in the morning in the same place to set direction for the day. It’s a 15 minute time boxed event facilitated by the SCRUM master. Each team member is asked 3 questions what did you do yesterday ?, what will you do today ? And what impediments are in your way ?. Sprint back logs and turndown charts are usually updated. It is effective because it avoids other meetings. It is the SCRUM masters job to remove any impediments revealed. 
+
+
+THE SPRINT REVIEW
+An opportunity for the team to show what they have built during the sprint, possibly in the form of a demo, informally this takes no longer than 2 hours, with the whole team and any interested parties participating.
+
+THE SPRINT RETROSPECTIVE
+A meeting where the team discusses what has worked or not worked for them during the previous sprint, another time boxed event usually 15-30 minutes. Usually done after the sprint review. Outcomes from the meeting include actionable commitments for the next sprint.
+
+
+
 9) What is grooming
+
+
 10) How Jira board is effective in SCRUM
+
+
 11) Differentiate between SCRUM & Waterfall
+SCRUM 
+
+
 12) Explain the responsibilities of Product Owner
+The ROI of a product, along with defining and prioritising features a product should have, deciding when and what to shift. Responsible for accepting or rejecting iteration results.
