@@ -36,7 +36,20 @@ However, it is still relevant because for some applications, the developers and 
 
 3) Explain Agile Model with a use case and the role of SCRUM in that
 
+Frequent Iterative delivery where each iteration follows the waterfall methodology but now over a shorter period usually a month, where new features can be released to the customer each month.
 
+Adaptive by working with people, engaging customers and being open to change
+Responding to feedback from user experiences, working together being transparent and open
+Value based on effective requirements through conversations having close customer relationships 
+Lean principles
+Eliminate waste by good communication between teams and customers, culture of learning, deliver fast
+
+SCRUM
+Starting with the highest priority features first product backlog 
+Broken into Sprint backlog
+Team will execute in 2-4 week sprint
+Each sprint the is a series of 24-iteration communication about progress each day.
+Goal end of sprint team produces fully functional product, only shippable if it has full set of features.
 
 
 
@@ -48,6 +61,9 @@ However, it is still relevant because for some applications, the developers and 
 
 5) Differentiate between Product/Sprint Backlog
 6) What is Epic & Story
+
+User story is a quick way of dealing customer requirements in a readable and usable form, being an effective means of communicating between the people who want and the people who will create the software in question without the overhead of creating and maintaining formal documentation.
+
 7) What is called Velocity in SCRUM
 8) Explain the SCRUM ceremonies
 9) What is grooming
