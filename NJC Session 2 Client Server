@@ -12,16 +12,32 @@ Tell us about the features of client/server.
 
 What is a Web server in a client server environment?
 
+Can be referred to as a computer system or software of that computer system that processes requests via HTTP. 
 
 
-What is the role of the presentation layer
+What is the role of the presentation layer ?
+
+Translation
+Data Compression
+Encryption/Decryption 
+
 They say this architecture is secure, how is it done in your opinion?
+
+
+
+
 What is a Database Server in a client server environment?
+
+
 What are Super servers in client server environments?
+
+
 Explain 2-Tier and 3-Tier architecture
 
 
+
+
 What is a File server?
-A server that provides files on demand.
+A machine on a network that provides files on demand.
  
 
