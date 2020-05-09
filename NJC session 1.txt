@@ -36,38 +36,19 @@ However, it is still relevant because for some applications, the developers and 
 
 3) Explain Agile Model with a use case and the role of SCRUM in that
 
-Just notes 
+An agile development model is a process that involves incremental releases over the course of a traditional project. Instead of the customer waiting several months for the end product. Agile projects have  iterations which can vary from 2 weeks to 2 months during which pre-determined features are developed and delivered. Doing this, means agile projects usually consist of several iterations until the complete product is finished. The advantage gained is that this method delivers from the first iteration, most likely only 1 month into the project. This approach has more tangible value for the customer rather than worrying and guessing about what is going on with the product in the background. The project evolves through this series of sprints accordingly.
 
-Frequent Iterative delivery where each iteration follows the waterfall methodology but now over a shorter period usually a month, where new features can be released to the customer each month.
+Let's say, IntelliJ is working on a project to compete with Eclipse, they want to provide all the features eclipse provides plus more. The final product should be ready for release in a years time. Being agile this project is split into several iterations all with the same time duration, the output is working software released after the first iteration. This approach allows customers to interact and work with the software and provide feedback on it early in a projects lifecycle and continue to aid direction through subsequent iterations. This lets the agile team change direction if needed before the next iteration.
 
-Adaptive by working with people, engaging customers and being open to change
-Responding to feedback from user experiences, working together being transparent and open
-Value based on effective requirements through conversations having close customer relationships 
-Lean principles
-Eliminate waste by good communication between teams and customers, culture of learning, deliver fast
+There are multiple ways of being agile and SCRUM is one way, it is described as a framework that is used to implement agile. What happens is a product backlog will be created, which is a prioritised list of all desired features to be in the software, the most important being at the top. Next the team executes a series of sprints on this product back log, this is where SCRUM adopts the incremental mentality of agile. SCRUM uses sprints, which are predetermined timeframes within which the team completes sets of tasks from the backlog, usually a month long. whilst in the midst of any given sprint, teams meet every day to give progress updates in a daily scrum. At he end of each sprint, reviews and feedback are fundamental ingredients for planning improvements on the next sprint. Key terms such velocity are used in SCRUM which is a measurement of a teams productivity over time historically, this measurement is used for effective planning of what can and cannot be achieved within a given sprint, summing these sprints together it helps agile teams forecast what realistically can be achieved over the course of a period of time.
 
-
-SCRUM
-Starting with the highest priority features first product backlog 
-Broken into Sprint backlog
-Team will execute in 2-4 week sprint
-Each sprint the is a series of 24-iteration communication about progress each day.
-Goal end of sprint team produces fully functional product, only shippable if it has full set of features.
-
-
-
+This means the agile team from IntelliJ in this discussion, would be able to use their velocity to determine if they are capable of competing with eclipse, by realising what they are capable of, and comparing this to what they have estimated, what it will take to implement the features to make them superior.
 
 
 
 4) Who is Scrum Master
 
 This is a role within the scrum model that is assigned to someone, whose job is to take care of the teams needs, representing interests or concerns to management and  maintaining the productivity of the team by removing any impediments identified by themselves or the team. Ensuring cooperation and communication is fluent across the team.
-
-
-
-
-
-
 
 
 
@@ -92,12 +73,8 @@ The total measure of work measured over time, where deliverable items/activities
 THE SPRINT PLANNING MEETING
 This is the first activity of any sprint and is facilitated by the SCRUM master, this is the meeting sprint goals are created consisting of 1 or more product backlog items, the sprint backlog is developed and a burn-down chart is initialised for the teams use over the time of the sprint. All three team roles are usually present. Often held on the first Monday after the last sprint was completed. It is a time boxed activity, where the team discusses the fine details of implementations that will occur and start to estimate the work. All the small items of work discussed are then collated to create the sprint backlog. If all the small work items needed to deliver a product backlog item exceed a sprints time length, then a negotiation or a discard and replacement of that product backlog item will occur, and the process will continue until the sprint backlog is full.
 
-
-
-
 THE DAILY SCRUM
 Team focuses together once a day ideally in the morning in the same place to set direction for the day. It’s a 15 minute time boxed event facilitated by the SCRUM master. Each team member is asked 3 questions what did you do yesterday ?, what will you do today ? And what impediments are in your way ?. Sprint back logs and turndown charts are usually updated. It is effective because it avoids other meetings. It is the SCRUM masters job to remove any impediments revealed. 
-
 
 THE SPRINT REVIEW
 An opportunity for the team to show what they have built during the sprint, possibly in the form of a demo, informally this takes no longer than 2 hours, with the whole team and any interested parties participating.
