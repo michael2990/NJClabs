@@ -1,7 +1,6 @@
- 
 Client-Server
  
-Tell us about the features of client/server.
+1. Tell us about the features of client/server.
 
 - A client is a machine or program that we use to make requests through the web.
 
@@ -10,34 +9,50 @@ Tell us about the features of client/server.
 - The client-server model is a centralised web arcitecture that classify computers into two sections, requesters and response providers.
 
 
-What is a Web server in a client server environment?
+2. What is a Web server in a client server environment?
 
 Can be referred to as a computer system or software of that computer system that processes requests via HTTP. 
 
 
-What is the role of the presentation layer ?
+3. What is the role of the presentation layer ?
 
-Translation
+Encoding/Decoding
 Data Compression
 Encryption/Decryption 
 
-They say this architecture is secure, how is it done in your opinion?
+
+4. They say this architecture is secure, how is it done in your opinion?
+
+Http alone is vunerable, because of easy read text. Secure http is known as https, this uses a diferrent port by default and 
+works by adding an additional security layer in the network protocol stack a SSL/TLS between the application and transport layer.
+So before any message leaves the client it has been encrypted.
+
+Trust is built on the server serving a certificate to the client to validate the server, this is done
+using public key cryptography and the existence CAA's. However letsencrypt is a service that lets anyone just obtain
+one of these certificates as long as they own the domain, and can be used as a malicous confidence enchancement.
+
+Https can facilitate a strict-transport-security prolicy known as HSTS lets a website tell browsers that it should only be accessed using HTTPS,
+instead of HTTP. However it can only do this once the website has returned the strict-transport-security header, 
+this happens from the initial request, which by default is http. This now can become subject to a man in the middle attack.
+That is the first time you access the website you are not protected by HSTS. So a TOFU mentalitly is applied.
+Preleoading is used as an additional method of protection to combat this, this is where the site is added to an internal list,
+so that the can never be an attempt to connect to it just using http.
+
+
+5. What is a Database Server in a client server environment?
+A server that uses a database application, that provides database services to clients, 
+which are users or other programs.
+
+
+6. What are Super servers in client server environments?
+
+
+7. Explain 2-Tier and 3-Tier architecture
 
 
 
 
-What is a Database Server in a client server environment?
-
-
-What are Super servers in client server environments?
-
-
-Explain 2-Tier and 3-Tier architecture
-
-
-
-
-What is a File server?
+8. What is a File server?
 A machine on a network that provides files on demand.
  
 
