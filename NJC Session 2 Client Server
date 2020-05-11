@@ -44,10 +44,25 @@ A server that uses a database application, that provides database services to cl
 which are users or other programs.
 
 
-6. What are Super servers in client server environments?
+6. What are Super servers in client server environments ?
+
+Services are performed by so-called daemons. A daemon is a program that opens a certain port, and waits for incoming connections. 
+If one occurs, it creates a child process which accepts the connection, while the parent continues to listen for further requests.
+
+This concept has the drawback that for every service offered, a daemon has to run that listens on the port for a connection to occur, 
+which generally means a waste of system resources. So almost all installations have super servers that create sockets for a number of
+services, and listens on all of them simultaneously. When a remote host requests one of the services, the super-server notices this and 
+connects the server specified for this port.
 
 
 7. Explain 2-Tier and 3-Tier architecture
+
+2-tier is just client and server with no intermediary, the server holds both the application and data layer on one machine, 
+and the presentation layer the client is on another.
+
+3-tier is when the application layer is put on a seperate server to the server storing the data layer 
+and placed in between the machine that stores the presentation layer (The client) and the server that stores
+the data layer.
 
 
 
