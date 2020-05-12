@@ -1,0 +1,123 @@
+SDLC & AGILE
+
+1)Explain SDLC at a high level
+
+It is a process that starts when a customer has a business idea for an application, once a contract has been signed with a company to build the idea. To make this happen the following list outlines the different phases in order, that any such project would go through from start to finish.
+
+PLANNING
+Where the customer or a representative meets together with a product owner, to define the requirements of the application at a high level.
+
+REQUIREMENT ANALYSIS
+The product owner will meet up with the team to define each requirement more in depth to give more planning details.
+
+DESIGN
+The broken down requirements are used to then plan the product, this may include issues such as colour schemes, UI layout, frameworks, what programming languages to use and database relationships.
+	
+IMPLEMENTATION/CODING
+Where the fun starts, the operations team will set up the physical hardware for servers, the developers will write the code, the designers will continue planning the UI. Testers will begin to analyse the requirements to plan test cases.
+
+TESTING
+One of the most important phases, to validate all requirements have been met, to make sure the functionality is working as expected, to find as many bugs as they 	possibly can.
+
+DEPLOYMENT
+Getting ready for production then to go live to real users.
+
+
+MAINTENANCE
+Monitor the load, maintain the environment and fix further bugs found. During the maintenance phase, new requirements will be discovered and the process can start again to upgrade or install new features into the existing application.
+
+
+
+2) What is waterfall and why it is still relevant
+
+Waterfall is a development methodology, which consists of a linear sequential life cycle. Following this approach any given task can only be started once the task before it has been completed. 
+
+It is criticised in modern development because over the lifetime of a project using waterfall, the level of visibility diminishes from the point of planning until deployment, along the way opportunities for adaptability are non existent due to cost, effort and time. The business value a customer receives is not tangible until the absolute end which can be substantial periods of time, by which time the fast paced market has moved on and now the product and customer has suffered as a consequence.
+However, it is still relevant because for some applications, the developers and clients can still start out with an extremely clear idea of what they want to achieve with the application or for some projects that are small with low risk of change. In such situations the waterfall approach presents a cheaper alternative requiring less resources and effort along with being time tested and reliable. 
+
+
+3) Explain Agile Model with a use case and the role of SCRUM in that
+
+An agile development model is a process that involves incremental releases over the course of a traditional project. Instead of the customer waiting several months for the end product. Agile projects have  iterations which can vary from 2 weeks to 2 months during which pre-determined features are developed and delivered. Doing this, means agile projects usually consist of several iterations until the complete product is finished. The advantage gained is that this method delivers from the first iteration, most likely only 1 month into the project. This approach has more tangible value for the customer rather than worrying and guessing about what is going on with the product in the background. The project evolves through this series of sprints accordingly.
+
+Let's say, IntelliJ is working on a project to compete with Eclipse, they want to provide all the features eclipse provides plus more. The final product should be ready for release in a years time. Being agile this project is split into several iterations all with the same time duration, the output is working software released after the first iteration. This approach allows customers to interact and work with the software and provide feedback on it early in a projects lifecycle and continue to aid direction through subsequent iterations. This lets the agile team change direction if needed before the next iteration.
+
+There are multiple ways of being agile and SCRUM is one way, it is described as a framework that is used to implement agile. What happens is a product backlog will be created, which is a prioritised list of all desired features to be in the software, the most important being at the top. Next the team executes a series of sprints on this product back log, this is where SCRUM adopts the incremental mentality of agile. SCRUM uses sprints, which are predetermined timeframes within which the team completes sets of tasks from the backlog, usually a month long. whilst in the midst of any given sprint, teams meet every day to give progress updates in a daily scrum. At he end of each sprint, reviews and feedback are fundamental ingredients for planning improvements on the next sprint. Key terms such velocity are used in SCRUM which is a measurement of a teams productivity over time historically, this measurement is used for effective planning of what can and cannot be achieved within a given sprint, summing these sprints together it helps agile teams forecast what realistically can be achieved over the course of a period of time.
+
+This means the agile team from IntelliJ in this discussion, would be able to use their velocity to determine if they are capable of competing with eclipse, by realising what they are capable of, and comparing this to what they have estimated, what it will take to implement the features to make them superior.
+
+
+
+4) Who is Scrum Master
+
+This is a role within the scrum model that is assigned to someone, whose job is to take care of the teams needs, representing interests or concerns to management and  maintaining the productivity of the team by removing any impediments identified by themselves or the team. Ensuring cooperation and communication is fluent across the team.
+
+
+
+5) Differentiate between Product/Sprint Backlog
+
+Product backlog is a complete list of functionality and features desired to be put inside a product. All potential new work, constraints or defects to be accomplished on a product will be found in the product backlog. This is created and managed by the product manager.
+
+Created by the team at a sprint planning meeting which is held at the beginning of every sprint, is the sprint backlog. Here an item is removed from the top of the product backlog and broken into smaller finer grained work and put into the sprint backlog. This backlog represents all the low level work that the team will accomplish during a dedicated timed sprint. Deliverable activities here are estimated in ideal hours. It’s usual after work initially begins on the sprint backlog, more is understood of the problem and the sprint backlog can grow from when it was initialised.
+
+
+6) What is Epic & Story
+
+Epic is simply a story, but considered so large that it needs to be broken down into multiple stories. 
+
+story is a quick way of dealing customer requirements in a readable and usable form, being an effective means of communicating between the people who want and the people who will create the software in question without the overhead of creating and maintaining formal documentation. Stories should be independent and can be broken down to even smaller sub stories called tasks when questions are asked about the initial story. When written appropriately teams can put an estimated time on the story using what is known as story points.
+
+7) What is called Velocity in SCRUM
+
+The total measure of work measured over time, where deliverable items/activities are measured in estimated ideal hours.
+
+
+8) Explain the SCRUM ceremonies
+
+THE SPRINT PLANNING MEETING
+This is the first activity of any sprint and is facilitated by the SCRUM master, this is the meeting sprint goals are created consisting of 1 or more product backlog items, the sprint backlog is developed and a burn-down chart is initialised for the teams use over the time of the sprint. All three team roles are usually present. Often held on the first Monday after the last sprint was completed. It is a time boxed activity, where the team discusses the fine details of implementations that will occur and start to estimate the work necessary. All the small items of work discussed are then collated to create the sprint backlog. If all the small work items needed to deliver a product backlog item exceed a sprints time length, then a negotiation or a discard and replacement of that product backlog item will occur, and the process will continue until the sprint backlog is full.
+
+THE DAILY SCRUM
+Team focuses together once a day ideally in the morning in the same place to set direction for the day. It’s a 15 minute time boxed event facilitated by the SCRUM master. Each team member is asked 3 questions what did you do yesterday ?, what will you do today ? And what impediments are in your way ?. Sprint back logs and turndown charts are usually updated. It is effective because it avoids other meetings. It is the SCRUM masters job to remove any impediments revealed. 
+
+THE SPRINT REVIEW
+An opportunity for the team to show what they have built during the sprint, possibly in the form of a demo, informally this takes no longer than 2 hours, with the whole team and any interested parties participating.
+
+THE SPRINT RETROSPECTIVE
+A meeting where the team discusses what has worked or not worked for them during the previous sprint, another time boxed event usually 15-30 minutes. Usually done after the sprint review. Outcomes from the meeting include actionable commitments for the next sprint.
+
+
+
+9) What is grooming
+
+This is a meeting of the scrum team where the product backlog items are discussed and the next sprint planning meeting is prepared.
+
+
+10) How Jira board is effective in SCRUM
+
+Using agile boards to visualise the workflow which have plan and work modes.
+
+Issue cards that replicate epics and stories, which make assignment, comments and viewing history easy, used with filters we can navigate using criteria.
+
+Reports which allow to make sense of the data in the project, used for progress and estimation.
+
+Testing slides seamlessly into the development cycle.
+
+SCRUM projects managed in one place, Release planning, Sprint planning, CI/CD integrations, project Backlog, issue management and developer tool integrations.
+
+
+
+11) Differentiate between SCRUM & Waterfall
+
+Iterative vs Linear
+Successive release vs Big Bang
+Adaptive vs Not Adaptive
+High Visibility vs Low Visibility
+Continuous design vs 1 design 
+Customer feedback vs Documentation
+Complex vs Simple
+Sprints vs Stages
+
+12) Explain the responsibilities of Product Owner
+
+The ROI of a product, along with defining and prioritising features a product should have, deciding when and what to shift. Responsible for accepting or rejecting iteration results.
