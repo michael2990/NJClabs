@@ -1,7 +1,22 @@
 SOA & MicroServices
  
 What are the main benefits of SOA?
-How can you achieve loose coupling in SOA
+
+Self contained services
+Loosely coupled 
+Reusabiltiy, dont have to keep building the same service in different enviroments  
+Isolation Testing/Debugging
+Vendor nuetral communications framework
+
+How can you achieve loose coupling in SOA ?
+
+Service contract
+Distributed control
+Using mediators either broker or ESB
+Asynchronous communication
+
+
+
 Are web services and SOA the same?
 What is a reusable service?
 What are the disadvantages of SOA?
