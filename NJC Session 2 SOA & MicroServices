@@ -40,10 +40,16 @@ SOA is based on loosely coupled architecture that’s why SOA has no synchroniza
 
 What is ESB and where does it fit in?
 
-
+The bus is a technology capability that includes the network, transport, routing, delivery of messages and content
+and supporting communication protocol. It is the central part to an SOA and is the carrier for all consumer and service 
+interactions.
 
 
 In SOA do we need to build a system from scratch?
+
+
+
+
 What is the most important skill needed to adopt SOA ?technical or cultural?
 List down the advantages of Microservices Architecture.
 What are the best practices to design Microservices?
