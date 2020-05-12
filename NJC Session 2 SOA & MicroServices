@@ -19,7 +19,7 @@ Asynchronous communication
 
 Are web services and SOA the same?
 
-SOA and web services are not the same thing. SOA is an architecturethat allows developers to combine
+SOA and web services are not the same thing. SOA is an architecture that allows developers to combine
 multiple application services into a larger, composite service. SOA can be implemented using SOAP-based 
 web services or REST APIs, or sometimes a combination. It's important to understand that in SOA, 
 a service is any remotely available resource that can respond to requests. Where as a web service is implemented 
@@ -29,7 +29,7 @@ using specific protocols.
 What is a reusable service?
 
 For example a business can provide some services to a customer like checking credit, checking delivery status and stock. 
-These functionalities are common for businesses, and so its possible to reuse any of these servicesinstead of recreating them
+These functionalities are common for businesses, and so its possible to reuse any of these services instead of recreating them
 when building different applications for different businesses.
 
 
@@ -58,7 +58,18 @@ strengths  and  weaknesses. In  general, a roadmap  is  an  accepted  means  of 
 objectives and plan future vision. These are cultral aspects of an organisation.
 
 List down the advantages of Microservices Architecture ?
+
+The constituent services are small, they can be built by one or more small teams.
+
+These services can also be deployed independently, hence its easy to identify hot services and scale them independently.
+
+Easier to choose the technology stack (programming languages, databases, etc.) which is best suited for the required 
+functionality.
+
+
 What are the best practices to design Microservices ?
+
+
 How does Microservice Architecture work ?
 What are the pros and cons of Microservice Architecture ?
 What is the difference between Monolithic, SOA and Microservices Architecture ?
