@@ -28,13 +28,21 @@ using specific protocols.
 
 What is a reusable service?
 
-An example of a reusable service could be a self contained component whose functionality is to obtain user login credentials. 
-as most applications facilitate this.
+For example a business can provide some services to a customer like checking credit, checking delivery status and stock. 
+These functionalities are common for businesses, and so its possible to reuse any of these servicesinstead of recreating them
+when building different applications for different businesses.
 
 
 What are the disadvantages of SOA?
 
+SOA is based on loosely coupled architecture that’s why SOA has no synchronization element.
+
+
 What is ESB and where does it fit in?
+
+
+
+
 In SOA do we need to build a system from scratch?
 What is the most important skill needed to adopt SOA ?technical or cultural?
 List down the advantages of Microservices Architecture.
