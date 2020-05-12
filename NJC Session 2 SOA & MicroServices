@@ -8,6 +8,7 @@ Reusabiltiy, dont have to keep building the same service in different enviroment
 Isolation Testing/Debugging
 Vendor nuetral communications framework
 
+
 How can you achieve loose coupling in SOA ?
 
 Service contract and Metadata
@@ -16,10 +17,23 @@ Using mediators either broker or ESB
 Asynchronous communication
 
 
-
 Are web services and SOA the same?
+
+SOA and web services are not the same thing. SOA is an architecturethat allows developers to combine
+multiple application services into a larger, composite service. SOA can be implemented using SOAP-based 
+web services or REST APIs, or sometimes a combination. It's important to understand that in SOA, 
+a service is any remotely available resource that can respond to requests. Where as a web service is implemented 
+using specific protocols.
+
+
 What is a reusable service?
+
+An example of a reusable service could be a self contained component whose functionality is to obtain user login credentials. 
+as most applications facilitate this.
+
+
 What are the disadvantages of SOA?
+
 What is ESB and where does it fit in?
 In SOA do we need to build a system from scratch?
 What is the most important skill needed to adopt SOA ?technical or cultural?
