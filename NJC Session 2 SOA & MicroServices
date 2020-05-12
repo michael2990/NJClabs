@@ -45,16 +45,22 @@ and supporting communication protocol. It is the central part to an SOA and is t
 interactions.
 
 
-In SOA do we need to build a system from scratch?
+In SOA do we need to build a system from scratch ?
 
-
+The services a new system will incorporate can be built from scratch but are often created by exposing functions from 
+legacy systems as service interfaces.
 
 
 What is the most important skill needed to adopt SOA ?technical or cultural?
-List down the advantages of Microservices Architecture.
-What are the best practices to design Microservices?
-How does Microservice Architecture work?
-What are the pros and cons of Microservice Architecture?
-What is the difference between Monolithic, SOA and Microservices Architecture?
-What are the challenges you face while working Microservice Architectures?
-What are the characteristics of Microservices?
+
+To produce a plan for an effective SOA program in  a heterogeneous  environment,  a company  must objectively  assess 
+strengths  and  weaknesses. In  general, a roadmap  is  an  accepted  means  of providing  a  plan to  reach  certain  
+objectives and plan future vision. These are cultral aspects of an organisation.
+
+List down the advantages of Microservices Architecture ?
+What are the best practices to design Microservices ?
+How does Microservice Architecture work ?
+What are the pros and cons of Microservice Architecture ?
+What is the difference between Monolithic, SOA and Microservices Architecture ?
+What are the challenges you face while working Microservice Architectures ?
+What are the characteristics of Microservices ?
