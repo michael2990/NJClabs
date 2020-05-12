@@ -1,0 +1,15 @@
+Introduction to API
+ 
+Explain REST and RESTFUL?
+Mention what are the HTTP methods supported by REST?
+Explain the architectural style for creating web API?
+Explain the RESTFul Web Service?
+Explain what is a “Resource” in REST?
+Which protocol is used by RESTful web services?
+What is messaging in RESTful web services?
+State the core components of an HTTP Request?
+State the core components of an HTTP response?
+What do you understand about payload in RESTFul web service?
+Explain the caching mechanism?
+List the main differences between SOAP and REST?
+Enlist advantages and disadvantages of ‘Statelessness’.
