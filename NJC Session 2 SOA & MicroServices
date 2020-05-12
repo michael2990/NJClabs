@@ -10,7 +10,7 @@ Vendor nuetral communications framework
 
 How can you achieve loose coupling in SOA ?
 
-Service contract
+Service contract and Metadata
 Distributed control
 Using mediators either broker or ESB
 Asynchronous communication
