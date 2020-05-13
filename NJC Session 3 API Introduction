@@ -1,8 +1,27 @@
 Introduction to API
  
-Explain REST and RESTFUL?
-Mention what are the HTTP methods supported by REST?
-Explain the architectural style for creating web API?
+Explain REST and RESTFUL ?
+
+REST stands for Representational State Transfer. It’s an architectural pattern described through constraints 
+for creating web services.
+A RESTful service is one that implements that pattern.
+
+Mention what are the HTTP methods supported by REST ?
+
+GET
+PUT
+DELETE
+POST
+HEAD
+PATCH
+
+Explain the architectural style for creating web API ?
+
+
+
+
+
+
 Explain the RESTFul Web Service?
 Explain what is a “Resource” in REST?
 Which protocol is used by RESTful web services?
