@@ -1,12 +1,63 @@
 HTML Fundamentals
  
 What are the basic Features of HTTP?
+HTTP is connectionless
+HTTP is media independent
+HTTP is stateless
+
+
 What are request methods in HTTP?
-What are the differences between GET and POST methods?
-What is status code in HTTP?
+The request method indicates the method to be performed on the resource identified by the given Request-URI.
+
+What are the differences between GET and POST methods ?
+
+GET is safe (cannot change content) reload is okay vs POST is unsafe (can change content) reload is not okay
+GET is less secure
+GET can be cached
+
+
+What is status code in HTTP ?
+The Status-Code is an element in a server response, which is a 3-digit integer where the first digit of the 
+Status-Code defines the class of response and the last two digits do not have any categorisation role.
+
 What are the header fields in HTTP?
+HTTP header fields provide required information about the request or response, or about the object sent in the 
+message body. There are four types of HTTP message headers
+General-header
+Client Request-header
+Server Response-header
+Entity-header
+
 What is URI?
-What are Idempotent methods and why do we call them?
+A Uniform Resource Identifier (URI) is a string of characters that unambiguously identifies a particular resource.
+
+What are Idempotent methods and why do we call them ?
+Idempotency is important in building a fault-tolerant API. Suppose a client wants to update a resource through POST. 
+Since POST is not a idempotent method, calling it multiple times can result in wrong updates. What would happen if you 
+sent out the POST request to the server, but you get a timeout. Is the resource actually updated? Does the timeout happened 
+during sending the request to the server, or the response to the client? Can we safely retry again, or do we need to figure 
+out first what has happened with the resource? By using idempotent methods, we do not have to answer this question, but we 
+can safely resend the GET request until we actually get a response back from the server.
+
 Explain HTTP Request & Response Messages
-What is Session State in HTTP?
-What is HTTPS?
+A web browser, for example, may be the client and an application running on a computer hosting a website may be the server.
+The client submits an HTTP request message to the server. The server, which provides resources such as HTML files and other 
+content, or performs other functions on behalf of the client, returns a response message to the client. The response contains
+completion status information about the request and may also contain requested content in its message body.
+
+
+What is Session State in HTTP ?
+
+A session is a logical construct that establishes persistence (or stateful behavior) across page views. Each session is 
+assigned a unique identifier. The browser uses this identifier (or session ID) to store and retrieve an 
+application's working set of data (or session state) before and after each page view.
+
+All modern web applications generate a "session ID" and pass it along as a cookie. This enables the application to find 
+the session on the server even after the connection from which the session was created is closed. Through this exchange of 
+session IDs, state is maintained even for a stateless protocol like HTTP. 
+
+
+What is HTTPS ?
+
+Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for 
+secure communication over a computer network.
