@@ -17,18 +17,85 @@ PATCH
 
 Explain the architectural style for creating web API ?
 
+Generally, Web API has 3 layers, which are given below.
+Web API Layer
+Business Layer 
+Repository Layer 
 
 
+Explain the RESTFul Web Service ?
+
+Web services based on REST Architecture are known as RESTful web services. These webservices uses HTTP methods 
+to implement the concept of REST architecture. A RESTful web service usually defines a URI, Uniform Resource Identifier
+a service, provides resource representation such as JSON and set of HTTP Methods. The web services are completely stateless. 
 
 
-
-Explain the RESTFul Web Service?
 Explain what is a “Resource” in REST?
+
+REST architecture treats every content as a resource. These resources can be Text Files, Html Pages, Images, Videos or Dynamic
+Business Data. REST Server simply provides access to resources and REST client accesses and modifies the resources. Here each
+resource is identified by URIs. REST uses various representations to represent a resource where Text, JSON, XML. The most 
+popular representations of resources are XML and JSON.
+
+
+
 Which protocol is used by RESTful web services?
+
+RESTful web services use web protocol HTTP.
+
+
 What is messaging in RESTful web services?
+
+A client sends a message in form of a HTTP Request and the server responds in the form of an HTTP Response. This technique 
+is Messaging. These messages contain message data and metadata.
+
+
+
 State the core components of an HTTP Request?
+
+A correctly composed HTTP request contains the following elements:
+A request line.
+A series of HTTP headers, or header fields.
+A message body, if needed.
+
+The request line is the first line in the request message. It consists of at least three items
+Method
+Path
+Http version
+
+Each HTTP header is followed by a carriage return line feed an additional CRLF is used, and then any message body begins.
+
+
+
 State the core components of an HTTP response?
-What do you understand about payload in RESTFul web service?
+
+An HTTP response contains:
+A status line.
+A series of HTTP headers, or header fields.
+A message body, which is usually needed.
+
+
+The status line is the first line in the response message. It consists of three items:
+Http version number
+Status code
+A reason phrase
+
+The HTTP headers for a server's response contain information that a client can use to find out more about the response.
+
+For a response to a successful request, the message body contains either the resource requested by the client, or some 
+information about the status of the action requested by the client. For a response to an unsuccessful request, 
+the message body might provide further information about the reasons for the error.
+
+
+
+
+What do you understand about payload in RESTFul web service ?
+
+payload is referring to a Http message response body.
+
+
 Explain the caching mechanism?
+
+
 List the main differences between SOAP and REST?
 Enlist advantages and disadvantages of ‘Statelessness’.
