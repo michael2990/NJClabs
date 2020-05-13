@@ -94,8 +94,22 @@ What do you understand about payload in RESTFul web service ?
 payload is referring to a Http message response body.
 
 
-Explain the caching mechanism?
+Explain the caching mechanism ?
+
+A cache is a storage area that is closer to the entity needing it than the original source. 
+Accessing this cache is typically faster than accessing the data from its original source. 
+A cache is typically stored in memory or on disk. A memory cache is normally faster to read from 
+than a disk cache, but a memory cache typically does not survive system restarts. Caching of data may occur at
+many different levels within the architecure of a system.
 
 
 List the main differences between SOAP and REST?
-Enlist advantages and disadvantages of ‘Statelessness’.
+
+SOAP relies exclusively on XML
+SOAP requires more bandwith
+SOAP cannot be cached
+
+
+Enlist advantages and disadvantages of ‘Statelessness’ 
+
+
