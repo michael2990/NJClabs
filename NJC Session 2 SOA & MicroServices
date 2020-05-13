@@ -57,21 +57,74 @@ To produce a plan for an effective SOA program in  a heterogeneous  environment,
 strengths  and  weaknesses. In  general, a roadmap  is  an  accepted  means  of providing  a  plan to  reach  certain  
 objectives and plan future vision. These are cultral aspects of an organisation.
 
+
 List down the advantages of Microservices Architecture ?
 
-The constituent services are small, they can be built by one or more small teams.
+-The constituent services are small, they can be built by one or more small teams.
 
-These services can also be deployed independently, hence its easy to identify hot services and scale them independently.
+-These services can also be deployed independently, hence its easy to identify hot services and scale them independently.
 
-Easier to choose the technology stack (programming languages, databases, etc.) which is best suited for the required 
-functionality.
+-Easier to choose the technology stack (programming languages, databases, etc.) which is best suited for the required 
+ functionality.
 
 
 What are the best practices to design Microservices ?
 
+Define the scope of a service
+High cohesion combined With loose coupling
+Unique source of identification
+Data storage segregation
+API integration how services communicate to each other
+
 
 How does Microservice Architecture work ?
+
+The main idea behind a microservice architecture is that applications are broken down into smaller pieces that work 
+seamlessly together isolating software functionality into multiple independent modules that are responsible for performing 
+precisely defined, standalone tasks. These modules communicate with each other through APIs. They support separation of 
+responsibilities for building highly scaled applications, allowing work to be done independently on individual
+services without impacting the work on other parts of the system.
+
 What are the pros and cons of Microservice Architecture ?
+
+PROS
+Increased scalability
+Fault Isolation
+Increased business agility
+Maintainability 
+Developer productivity
+
+CONS
+Communication issues
+Security
+Automation testing
+Complexity
+
+
 What is the difference between Monolithic, SOA and Microservices Architecture ?
+
+The difference between microservices and monolithic architecture is that microservices compose a single application
+from many smaller, loosely coupled services as opposed to the monolithic approach of one large, tightly coupled application.
+
+The differences between microservices and SOA can be a bit less clear. Especially around the role of the enterprise 
+service bus (ESB), it’s easier to consider the difference as one of scope. SOA was an enterprise-wide effort to standardize 
+the way all services talk to and integrate with each other, whereas microservices architecture is application-specific,
+some services dont need interaction with others.
+
+
 What are the challenges you face while working Microservice Architectures ?
+
+Managing 
+Monitoring 
+Embracing culture
+Intergration testing
+Fault tolerance
+
+
 What are the characteristics of Microservices ?
+
+Service components 
+Products not projects
+Smart endpoints
+Design for failure
+
