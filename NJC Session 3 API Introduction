@@ -112,4 +112,8 @@ SOAP cannot be cached
 
 Enlist advantages and disadvantages of ‘Statelessness’ 
 
+The advantages that maintaining parties don't have the responsibility of managing the resident memory.
+
+The disadvantage they will not keep information about a particular user session.
+
 
